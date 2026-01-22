@@ -1,31 +1,33 @@
-# sito-cosmetici
-sito-cosmetici
 <!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studio Cosmetico Essenziale</title>
+  <title>Cutis Lab - Cosmetici Essenziali</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- HERO SECTION -->
   <header class="hero">
     <h1>Cosmetici essenziali per la pelle quotidiana</h1>
-    <p>Formulazioni semplici. Ingredienti riconoscibili. Piccoli lotti.</p>
+    <p>Formulazioni semplici. Ingredienti riconoscibili. Piccoli lotti artigianali.</p>
   </header>
 
-  <section class="section">
-    <h2>Il metodo</h2>
+  <!-- IL METODO -->
+  <section class="section" id="metodo">
+    <h2>Il nostro metodo</h2>
     <ul>
-      <li>Pochi ingredienti, selezionati</li>
+      <li>Pochi ingredienti selezionati</li>
       <li>Senza profumi e coloranti sintetici</li>
       <li>Produzione artigianale in piccoli lotti</li>
     </ul>
   </section>
 
-  <section class="section">
-    <h2>Prodotti</h2>
+  <!-- PRODOTTI -->
+  <section class="section" id="prodotti">
+    <h2>I nostri prodotti</h2>
 
     <div class="product">
       <h3>Detergente delicato</h3>
@@ -46,15 +48,18 @@ sito-cosmetici
       <h3>Burrocacao</h3>
       <p>Protezione naturale per labbra secche.</p>
     </div>
+
   </section>
 
-  <section class="section">
+  <!-- TRASPARENZA -->
+  <section class="section" id="trasparenza">
     <h2>Trasparenza</h2>
-    <p>Ogni prodotto è realizzato in piccoli lotti ed è tracciabile.</p>
+    <p>Ogni prodotto è realizzato in piccoli lotti, numerato e tracciabile per garantire freschezza e qualità.</p>
   </section>
 
+  <!-- CONTATTI -->
   <footer class="footer">
-    <p>Produzione artigianale • Contatto: email@email.it</p>
+    <p>Produzione artigianale • Contatto: <a href="mailto:email@email.it">email@email.it</a></p>
   </footer>
 
 </body>
